@@ -25,19 +25,21 @@ const Dashboard = () => {
       <div>
         <Header />
       </div>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <div className="bg-bg-primary">
-          <h2 className="p-1 bg-bg-secondary border-border-primary border-r-2 text-text-secondary font-bold">Categories</h2>
-          <div className="flex-1">
+          <h2 className="p-1 bg-bg-secondary border-border-primary border-r-2 text-text-secondary font-bold text-center md:text-left">Categories</h2>
+          <div className="grid grid-cols-3 flex-wrap md:block">
             <Category name="Farms" icon={wheatIcon} />
             <Category name="Redstone Builds" icon={redstoneIcon} />
             <Category name="Structures" icon={stoneBrickIcon} />
           </div>
         </div>
-        <div className="w-full">
-          <FarmList onSelect={handleSelect} currentFarm={selectedFarm} />
+        <div className="flex md:block">
+          <div className="w-full">
+            <FarmList onSelect={handleSelect} currentFarm={selectedFarm} />
+          </div>
         </div>
-        <div className="">
+        <div className="md:flex-1">
           <DetailPanel selectedFarm={selectedFarm} key={id} />
         </div>
       </div>

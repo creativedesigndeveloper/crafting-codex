@@ -3,7 +3,7 @@
 body {
   background-color: var(--color-bg-farm-list);
   color: var(--color-text-primary);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @theme {
