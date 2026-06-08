@@ -7,7 +7,7 @@ interface DetailPanelProps {
 const DetailPanel = ({ selectedFarm }: DetailPanelProps) => {
   if (!selectedFarm) {
     return (
-      <div className="bg-bg-primary h-240 w-40 border-l-border-primary border-l-9 sm:w-40 md:w-60 lg:w-80">
+      <div className="bg-bg-primary h-240 w-40 border-l-border-primary border-l-9 md:w-60 lg:w-80">
         <div className="bg-bg-secondary px-2 py-1 border-b-border-primary border-b-2">
           <h2 className="text-text-secondary font-bold">Farm Name</h2>
         </div>
@@ -17,7 +17,7 @@ const DetailPanel = ({ selectedFarm }: DetailPanelProps) => {
   }
 
   return (
-    <div className="bg-bg-primary h-240 w-60 border-l-border-primary border-l-9 md:w-80">
+    <div className="bg-bg-primary h-240 border-l-border-primary border-l-9 w-40 md:w-60 lg:w-80">
       <div>
         <div className="bg-bg-secondary px-2 py-1 border-b-border-primary border-b-2">
           <h1 className="text-text-secondary font-bold">{selectedFarm.name}</h1>

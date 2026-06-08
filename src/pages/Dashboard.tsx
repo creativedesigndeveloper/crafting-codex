@@ -10,7 +10,6 @@ import { useState } from "react"
 
 const Dashboard = () => {
   const [selectedFarm, setSelectedFarm] = useState<Farm | null>(null)
-  const id = crypto.randomUUID()
 
   const handleSelect = ({ farm }: { farm: Farm }) => {
     if (selectedFarm?.id === farm.id) {
@@ -38,9 +37,12 @@ const Dashboard = () => {
           <div className="w-full">
             <FarmList onSelect={handleSelect} currentFarm={selectedFarm} />
           </div>
+          <div className="hidden md:hidden">
+            <DetailPanel selectedFarm={selectedFarm} />
+          </div>
         </div>
-        <div className="md:flex-1">
-          <DetailPanel selectedFarm={selectedFarm} key={id} />
+        <div className="hidden md:block md:flex-1">
+          <DetailPanel selectedFarm={selectedFarm} />
         </div>
       </div>
     </div>
