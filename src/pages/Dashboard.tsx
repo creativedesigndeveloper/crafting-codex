@@ -33,7 +33,7 @@ const Dashboard = () => {
             <Category name="Structures" icon={stoneBrickIcon} />
           </div>
         </div>
-        <div className="flex md:block">
+        <div className="flex md:block w-full">
           <div className="w-full">
             <FarmList onSelect={handleSelect} currentFarm={selectedFarm} />
           </div>

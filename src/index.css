@@ -3,7 +3,7 @@
 body {
   background-color: var(--color-bg-farm-list);
   color: var(--color-text-primary);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 @theme {
@@ -25,3 +25,5 @@ body {
   --color-border-status-hard: #FF0000;
   --color-border-card-active: #00FF1E;
 }
+
+@media (min-width: 768px) {}

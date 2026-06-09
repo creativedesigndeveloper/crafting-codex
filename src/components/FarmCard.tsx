@@ -18,7 +18,7 @@ const FarmCard = ({ farm, isSelected, onSelect }: FarmCardProps) => {
       onSelect({ farm })
     }
     } className={`${isSelected ? 'bg-bg-card-active border-border-card-active' : 'bg-bg-card border-border-primary'}  
-    py-3 rounded-xl border-3 w-40 flex flex-col items-center justify-center text-center gap-5 cursor-pointer md:w-50`}>
+    py-3 rounded-xl border-3 w-40 flex flex-col items-center justify-center text-center mx-auto md:mx-0 gap-5 cursor-pointer md:w-50`}>
       <img className="w-10 md:w-15" src={farm.icon} alt={farm.name} />
       <h4 className="text-xl md:text-2xl">{farm.name}</h4>
       <span className={`${difficultyStyles[farm.difficulty]} px-8 border-3 rounded-sm`}>{farm.difficulty}</span>
