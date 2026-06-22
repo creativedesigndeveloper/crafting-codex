@@ -1,12 +1,10 @@
 import Category from "@/components/Category"
-import wheatIcon from '@/assets/minecraft-items/wheat.png'
-import redstoneIcon from '@/assets/minecraft-items/redstone.png'
-import stoneBrickIcon from '@/assets/minecraft-items/stone_bricks.png'
 import Header from "@/components/Header"
 import DetailPanel from "@/components/DetailPanel"
 import FarmList from "@/components/FarmList"
 import type { Farm } from "@/types"
 import { useState } from "react"
+import { icons } from "@/iconRegistry"
 
 const Dashboard = () => {
   const [selectedFarm, setSelectedFarm] = useState<Farm | null>(null)
@@ -28,9 +26,9 @@ const Dashboard = () => {
         <div className="bg-bg-primary">
           <h2 className="p-1 bg-bg-secondary border-border-primary border-r-2 text-text-secondary font-bold text-center md:text-left">Categories</h2>
           <div className="grid grid-cols-3 flex-wrap md:block">
-            <Category name="Farms" icon={wheatIcon} />
-            <Category name="Redstone Builds" icon={redstoneIcon} />
-            <Category name="Structures" icon={stoneBrickIcon} />
+            <Category name="Farms" icon={icons['wheat.png']} />
+            <Category name="Redstone Builds" icon={icons['redstone.png']} />
+            <Category name="Structures" icon={icons['stone_bricks.png']} />
           </div>
         </div>
         <div className="flex md:block w-full">
