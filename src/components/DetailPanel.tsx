@@ -28,7 +28,7 @@ const DetailPanel = ({ selectedFarm }: DetailPanelProps) => {
       </div>
       <div>
         <h4>Materials</h4>
-        <div className="overflow-y-scroll h-130">
+        <div className="overflow-y-scroll no-scrollbar h-130">
           {selectedFarm.materials.map((m, index) => (
             <div className="flex justify-between mb-3 items-center pl-2 pt-2" key={index}>
               <img className="w-10" src={icons[m.icon]} alt={m.name} />

@@ -1,5 +1,5 @@
 import type { Farm } from "@/types"
-import { farms } from "@/data/farms"
+import { farms } from "@/data/farms.json"
 import FarmCard from "./FarmCard"
 
 interface FarmListProps {
@@ -14,7 +14,7 @@ const FarmList = ({ currentFarm, onSelect }: FarmListProps) => {
       <div className=" p-1 bg-bg-primary border-b-border-primary border-b-2">
         <span className="text-text-secondary pl-2 flex justify-center md:block">Farms - select a build to see resources</span>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4  gap-6 p-4 justify-items-start">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4  gap-6 p-4 justify-items-start overflow-y-scroll no-scrollbar h-160">
         {farms.map((farm) => (
           <FarmCard key={farm.id} farm={farm} isSelected={currentFarm?.id === farm.id} onSelect={onSelect} />
         ))}

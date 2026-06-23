@@ -6,6 +6,10 @@ body {
   overflow: hidden;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 @theme {
   --color-text-primary: #FFFFFF;
   --color-text-secondary: #A9A9A9;

@@ -1,0 +1,182 @@
+{
+  "farms": [
+    {
+      "id": "wheat-farm",
+      "name": "Wheat Farm",
+      "icon": "wheat.png",
+      "difficulty": "Easy",
+      "category": "Farms",
+      "description": "This is a wheat farm",
+      "materials": [
+      {"name": "Dirt", "quantity": 320, "icon": "dirt_block.png", "id": "wheat-farm-dirt"},
+      {"name": "Minecart", "quantity": 4, "icon": "minecart.png", "id": "wheat-farm-minecart"},
+      {"name": "Wheat", "quantity": 320, "icon": "wheat.png", "id": "wheat-farm-wheat"},
+      {"name": "Water Bucket", "quantity": 4, "icon": "water_bucket.png", "id": "wheat-farm-water_bucket"},
+      {"name": "Wood Planks", "quantity": 40, "icon": "spruce_planks.png", "id": "wheat-farm-wood_planks"},
+      {"name": "Wood Slabs", "quantity": 88, "icon": "spruce_slab.png", "id": "wheat-farm-wood_slabs"},
+      {"name": "Composter", "quantity": 4, "icon": "Composter.png", "id": "wheat-farm-composter"},
+      {"name": "ShroomLight", "quantity": 4, "icon": "Shroomlight.png", "id": "wheat-farm-shroomlight"},
+      {"name": "Hopper", "quantity": 10, "icon": "hopper.png", "id": "wheat-farm-hopper"},
+      {"name": "Rails", "quantity": 4, "icon": "rail.png", "id": "wheat-farm-rails"},
+      {"name": "Lightning Rod", "quantity": 1, "icon": "lightning_rod.png", "id": "wheat-farm-lightning_rod"},
+      {"name": "Chest", "quantity": 10, "icon": "Minecraft Chest.png", "id": "wheat-farm-chest"}
+      ]
+    },
+      {
+    "id": "redstone-farm",
+    "name": "Redstone Farm",
+    "icon": "redstone.png",
+    "category": "Farms",
+    "difficulty": "Medium",
+    "description": "This is the first farm i am testing",
+    "materials": [
+      {"name": "Smooth Stone", "quantity": 640, "icon": "smooth_stone.png", "id": "redstone-farm-smooth_stone"},
+      {"name": "Smooth Stone Slabs", "quantity": 85, "icon": "smooth_stone_slab.png", "id": "redstone-farm-smooth_stone_slabs"},
+      {"name": "Piston", "quantity": 1, "icon": "piston.png", "id": "redstone-farm-piston"},
+      {"name": "Chest", "quantity": 2, "icon": "Minecraft Chest.png", "id": "redstone-farm-chest"},
+      {"name": "Hopper", "quantity": 1, "icon": "hopper.png", "id": "redstone-farm-hopper"},
+      {"name": "Hopper Minecart", "quantity": 1, "icon": "hopper_minecart.png", "id": "redstone-farm-hopper_minecart"},
+      {"name": "Minecart", "quantity": 24, "icon": "minecart.png", "id": "redstone-farm-minecart"},
+      {"name": "Boat", "quantity": 24, "icon": "spruce_boat.png", "id": "redstone-farm-boat"},
+      {"name": "Ladder", "quantity": 7, "icon": "ladder.png", "id": "redstone-farm-ladder"},
+      {"name": "Rails", "quantity": 2, "icon": "rail.png", "id": "redstone-farm-rails"},
+      {"name": "Sign", "quantity": 1, "icon": "spruce_sign.png", "id": "redstone-farm-sign"},
+      {"name": "Water Bucket", "quantity": 2, "icon": "water_bucket.png", "id": "redstone-farm-water_bucket"},
+      {"name": "Redstone", "quantity": 38, "icon": "redstone.png", "id": "redstone-farm-redstone"},
+      {"name": "Redstone Torch", "quantity": 24, "icon": "redstone_torch.png", "id": "redstone-farm-redstone_torch"},
+      {"name": "Lever", "quantity": 1, "icon": "lever.png", "id": "redstone-farm-lever"},
+      {"name": "Trapdoor", "quantity": 28, "icon": "spruce_trapdoor.png", "id": "redstone-farm-trapdoor"},
+      {"name": "Pressure Plate", "quantity": 6, "icon": "oak_pressure_plate.png", "id": "redstone-farm-pressure_plate"}
+    ]
+  },
+    {
+    "id": "iron-farm",
+    "name": "Iron Farm",
+    "icon": "iron_ingot.png",
+    "category": "Farms",
+    "difficulty": "Easy",
+    "description": "This is an iron farm",
+    "materials": [
+      {"name": "Dirt", "quantity": 640, "icon": "dirt_block.png", "id": "iron-farm-dirt"},
+      {"name": "Water Bucket", "quantity": 6, "icon": "water_bucket.png", "id": "iron-farm-water_bucket"},
+      {"name": "Chest", "quantity": 7, "icon": "Minecraft Chest.png", "id": "iron-farm-chest"},
+      {"name": "Hopper", "quantity": 9, "icon": "hopper.png", "id": "iron-farm-hopper"},
+      {"name": "Slabs", "quantity": 12, "icon": "smooth_stone_slab.png", "id": "iron-farm-smooth_stone_slabs"},
+      {"name": "Lava Bucket", "quantity": 4, "icon": "lava_bucket.png", "id": "iron-farm-lava_bucket"},
+      {"name": "Boat", "quantity": 4, "icon": "spruce_boat.png", "id": "iron-farm-boat"},
+      {"name": "Ladder", "quantity": 28, "icon": "ladder.png", "id": "iron-farm-ladder"},
+      {"name": "Buttons", "quantity": 2, "icon": "oak_button.png", "id": "iron-farm-buttons"},
+      {"name": "Sign", "quantity": 1, "icon": "spruce_sign.png", "id": "iron-farm-sign"},
+      {"name": "Redstone", "quantity": 38, "icon": "redstone.png", "id": "iron-farm-redstone"},
+      {"name": "Redstone Torch", "quantity": 24, "icon": "redstone_torch.png", "id": "iron-farm-redstone_torch"},
+      {"name": "Lever", "quantity": 1, "icon": "lever.png", "id": "iron-farm-lever"},
+      {"name": "Trapdoor", "quantity": 8, "icon": "spruce_trapdoor.png", "id": "iron-farm-trapdoor"},
+      {"name": "Pressure Plate", "quantity": 6, "icon": "oak_pressure_plate.png", "id": "iron-farm-pressure_plate"}
+    ]
+  },
+    {
+    "id": "gold-farm",
+    "name": "Gold Farm",
+    "icon": "gold_ingot.png",
+    "category": "Farms",
+    "difficulty": "Medium",
+    "description": "This is a gold farm",
+    "materials": [
+      {"name": "Magma Block", "quantity": 4920, "icon": "magma_block.png", "id": "gold-farm-magma_block"},
+      {"name": "Glass", "quantity": 85, "icon": "glass_block.png", "id": "gold-farm-glass"},
+      {"name": "Trapdoor", "quantity": 232, "icon": "spruce_trapdoor.png", "id": "gold-farm-trapdoor"},
+      {"name": "Smooth Stone Slabs", "quantity": 186, "icon": "smooth_stone_slab.png", "id": "gold-farm-smooth_stone_slabs"},
+      {"name": "Hopper", "quantity": 1, "icon": "hopper.png", "id": "gold-farm-hopper"},
+      {"name": "Scaffolding", "quantity": 1, "icon": "scaffolding.png", "id": "gold-farm-scaffolding"},
+      {"name": "Temporary Blocks", "quantity": 24, "icon": "dirt_block.png", "id": "gold-farm-dirt"},
+      {"name": "Chest", "quantity": 24, "icon": "Minecraft Chest.png", "id": "gold-farm-chest"},
+      {"name": "Turtle Egg", "quantity": 10, "icon": "turtle_egg.png", "id": "gold-farm-turtle_egg"}
+    ]
+  },
+  {
+    "id": "shulker-farm",
+    "name": "Shulker Farm",
+    "icon": "shulker_shell.png",
+    "category": "Farms",
+    "difficulty": "Hard",
+    "description": "This is a shulker farm",
+    "materials": [
+      {"name": "Scaffolding", "quantity": 1216, "icon": "scaffolding.png", "id": "shulker-farm-scaffolding"},
+      {"name": "Smooth Stone Slabs", "quantity": 1211, "icon": "smooth_stone_slab.png", "id": "shulker-farm-smooth_stone_slabs"},
+      {"name": "Stone Brick Walls", "quantity": 45, "icon": "stone_brick_wall.png", "id": "shulker-farm-stone_brick_walls"},
+      {"name": "Chest", "quantity": 2, "icon": "Minecraft Chest.png", "id": "shulker-farm-chest"},
+      {"name": "Hopper", "quantity": 1, "icon": "hopper.png", "id": "shulker-farm-hopper"},
+      {"name": "Fences", "quantity": 1, "icon": "spruce_fence.png", "id": "shulker-farm-fences"},
+      {"name": "Observer", "quantity": 24, "icon": "observer.png", "id": "shulker-farm-observer"},
+      {"name": "Redstone", "quantity": 24, "icon": "redstone.png", "id": "shulker-farm-redstone"},
+      {"name": "Boat", "quantity": 2, "icon": "spruce_boat.png", "id": "shulker-farm-boat"},
+      {"name": "Water Bucket", "quantity": 2, "icon": "water_bucket.png", "id": "shulker-farm-water_bucket"},
+      {"name": "Trapdoor", "quantity": 1, "icon": "spruce_trapdoor.png", "id": "shulker-farm-trapdoor"},
+      {"name": "Redstone Repeater", "quantity": 2, "icon": "repeater.png", "id": "shulker-farm-redstone_repeater"},
+      {"name": "Redstone Comparator", "quantity": 38, "icon": "comparator.png", "id": "shulker-farm-redstone_comparator"},
+      {"name": "Cobweb", "quantity": 24, "icon": "cobweb.png", "id": "shulker-farm-cobweb"},
+      {"name": "Lever", "quantity": 1, "icon": "lever.png", "id": "shulker-farm-lever"},
+      {"name": "Piston", "quantity": 28, "icon": "piston.png", "id": "shulker-farm-piston"},
+      {"name": "Pressure Plate", "quantity": 6, "icon": "oak_pressure_plate.png", "id": "shulker-farm-pressure_plate"}
+    ]
+  },
+    {
+    "id": "gold-farm",
+    "name": "Gold Farm",
+    "icon": "gold_ingot.png",
+    "category": "Farms",
+    "difficulty": "Medium",
+    "description": "This is a gold farm",
+    "materials": [
+      {"name": "Magma Block", "quantity": 4920, "icon": "magma_block.png", "id": "gold-farm-magma_block"},
+      {"name": "Glass", "quantity": 85, "icon": "glass_block.png", "id": "gold-farm-glass"},
+      {"name": "Trapdoor", "quantity": 232, "icon": "spruce_trapdoor.png", "id": "gold-farm-trapdoor"},
+      {"name": "Smooth Stone Slabs", "quantity": 186, "icon": "smooth_stone_slab.png", "id": "gold-farm-smooth_stone_slabs"},
+      {"name": "Hopper", "quantity": 1, "icon": "hopper.png", "id": "gold-farm-hopper"},
+      {"name": "Scaffolding", "quantity": 1, "icon": "scaffolding.png", "id": "gold-farm-scaffolding"},
+      {"name": "Temporary Blocks", "quantity": 24, "icon": "dirt_block.png", "id": "gold-farm-dirt"},
+      {"name": "Chest", "quantity": 24, "icon": "Minecraft Chest.png", "id": "gold-farm-chest"},
+      {"name": "Turtle Egg", "quantity": 10, "icon": "turtle_egg.png", "id": "gold-farm-turtle_egg"}
+    ]
+  },
+    {
+    "id": "gold-farm",
+    "name": "Gold Farm",
+    "icon": "gold_ingot.png",
+    "category": "Farms",
+    "difficulty": "Medium",
+    "description": "This is a gold farm",
+    "materials": [
+      {"name": "Magma Block", "quantity": 4920, "icon": "magma_block.png", "id": "gold-farm-magma_block"},
+      {"name": "Glass", "quantity": 85, "icon": "glass_block.png", "id": "gold-farm-glass"},
+      {"name": "Trapdoor", "quantity": 232, "icon": "spruce_trapdoor.png", "id": "gold-farm-trapdoor"},
+      {"name": "Smooth Stone Slabs", "quantity": 186, "icon": "smooth_stone_slab.png", "id": "gold-farm-smooth_stone_slabs"},
+      {"name": "Hopper", "quantity": 1, "icon": "hopper.png", "id": "gold-farm-hopper"},
+      {"name": "Scaffolding", "quantity": 1, "icon": "scaffolding.png", "id": "gold-farm-scaffolding"},
+      {"name": "Temporary Blocks", "quantity": 24, "icon": "dirt_block.png", "id": "gold-farm-dirt"},
+      {"name": "Chest", "quantity": 24, "icon": "Minecraft Chest.png", "id": "gold-farm-chest"},
+      {"name": "Turtle Egg", "quantity": 10, "icon": "turtle_egg.png", "id": "gold-farm-turtle_egg"}
+    ]
+  },
+    {
+    "id": "gold-farm",
+    "name": "Gold Farm",
+    "icon": "gold_ingot.png",
+    "category": "Farms",
+    "difficulty": "Medium",
+    "description": "This is a gold farm",
+    "materials": [
+      {"name": "Magma Block", "quantity": 4920, "icon": "magma_block.png", "id": "gold-farm-magma_block"},
+      {"name": "Glass", "quantity": 85, "icon": "glass_block.png", "id": "gold-farm-glass"},
+      {"name": "Trapdoor", "quantity": 232, "icon": "spruce_trapdoor.png", "id": "gold-farm-trapdoor"},
+      {"name": "Smooth Stone Slabs", "quantity": 186, "icon": "smooth_stone_slab.png", "id": "gold-farm-smooth_stone_slabs"},
+      {"name": "Hopper", "quantity": 1, "icon": "hopper.png", "id": "gold-farm-hopper"},
+      {"name": "Scaffolding", "quantity": 1, "icon": "scaffolding.png", "id": "gold-farm-scaffolding"},
+      {"name": "Temporary Blocks", "quantity": 24, "icon": "dirt_block.png", "id": "gold-farm-dirt"},
+      {"name": "Chest", "quantity": 24, "icon": "Minecraft Chest.png", "id": "gold-farm-chest"},
+      {"name": "Turtle Egg", "quantity": 10, "icon": "turtle_egg.png", "id": "gold-farm-turtle_egg"}
+    ]
+  }
+    
+  ]
+}
